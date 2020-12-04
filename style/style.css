@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Consolas, sans-serif;
+  min-width: 400px;
+}
+
+.wrap {
+  width: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100px;
+  font-family: Consolas, sans-serif;
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.block-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.block-wrap * {
+  width: 43%;
+  margin: 5px 0;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: Consolas, sans-serif;
+}
+
+.text-output {
+  margin-top: 10px;
+  text-align: center;
+}
